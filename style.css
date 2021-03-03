@@ -29,6 +29,9 @@ img{
 /*-----------ヘッダー　ここから-----------*/
 header{
   background-color: #fff;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
 }
 
 .contact-button {
