@@ -50,12 +50,21 @@ header{
 .contact-button:hover {
   background-color: #333;
   transition: 0.3s;
-  }
+}
+.contact-button a:hover{
+  color: #333;
+  transition: 0.3s;
+}
+
 
 .header-menu-icon{
   padding: 15px;
   color: #777;
   float: left;
+}
+
+.hamburger{
+  display: none;
 }
 
 
@@ -166,6 +175,7 @@ header{
 
 .skill-img:hover{
   opacity: 1;
+  transition: 0.7s;
 }
 /*-----------スキル　ここまで-----------*/
 
@@ -264,3 +274,136 @@ justify-content: center;
   flex-direction: row-reverse;
 }
 /*-----------フッター　ここまで-----------*/
+
+
+
+
+@media screen and (max-width: 1199px) {
+  .inner{
+    width: 97%;
+  }
+  .keyvisual{
+    padding: 250px 0px;
+  }
+  .work{
+    width: 100%;
+    padding-bottom: 50px;
+  }
+  .work{
+    display: block;
+  }
+  .center{
+    display: block;
+    text-align: center;
+  }
+  .work{
+    width: 100%;
+    padding-bottom: 50px;
+  }
+  .center{
+    display: block;
+    text-align: center;
+  }
+  .skills-img a{
+    margin-left: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+  }
+  .skills-img a:nth-child(3n){
+    margin-bottom: 80px;
+  }
+  .skills-img a:nth-last-child(1){
+  margin-bottom: 0px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+  .hamburger {
+    position: relative;
+    width: 50px;
+    height: 40px;
+    cursor: pointer;
+    background-color: #6ba7ed;
+    float: right;
+    margin: 15px;
+    display: block;
+  }
+  .hamburger-line {
+    position: absolute;
+    left: 10px;
+    width: 30px;
+    height: 1px;
+    background-color: #333333;
+  }
+  .hamburger-line1 {
+  top: 10px;
+  }
+  .hamburger-line2 {
+    top: 18px;
+  }
+  .hamburger-line3 {
+    top: 26px;
+  }
+  .contact-button{
+    display: none;
+  }
+
+
+  .inner{
+    width: 97%;
+  }
+  .keyvisual{
+    padding: 200px 0px;
+  }
+
+  .title-text{
+    font-size: 40px;
+  }
+  .title-text-sub{
+    font-size: 30px;
+  }
+  .work{
+    width: 100%;
+    padding-bottom: 50px;
+    display: block;
+  }
+  .center{
+    display: block;
+    text-align: center;
+  }
+  .skills-img{
+    display: block;
+  }
+  .skills-img a{
+    margin-left: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+  }
+  .skills-img a:nth-child(3n){
+    margin-bottom: 80px;
+  }
+  .skills-img a:nth-last-child(1){
+    margin-bottom: 0px;
+  }
+  thead tr th,tbody tr th{
+    font-size: 14px;
+    line-height: 22px;
+  }
+  tbody tr td{
+    font-size: 12px;
+  }
+  .sns-icon-size{
+    margin: 0 auto;
+    width: 100%;
+  }
+  .sns-icon{
+    padding: 50px 15px;
+    display: block;
+  }
+
+  .sns-icon-size a {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
