@@ -29,6 +29,7 @@ img{
 /*-----------共通部分　ここまで-----------*/
 
 /*-----------ヘッダー　ここから-----------*/
+
 header{
   background-color: #fff;
   position: fixed;
@@ -61,23 +62,22 @@ header{
 /*-----------ヘッダー部分　ここまで-----------*/
 
 /*-----------キービジュアル　ここから-----------*/
+.keyvisual{
+  background: url(img/keyvisual/keyvisual.jpg) center/cover;
+  padding: 400px 0px;
+}
+
 .title-text{
   font-size: 65px;
   font-weight: 700;
   margin-bottom: 30px;
   color: #6ba7ed;
-  padding-top: 400px;
 }
 
 .title-text-sub{
   font-size: 40px;
   font-weight: 700;
   color: #fff;
-  padding-bottom: 400px;
-}
-
-.img-pc{
-  background: url(img/keyvisual/keyvisual.jpg) center/cover;
 }
 
 .text{
