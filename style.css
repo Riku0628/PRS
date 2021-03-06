@@ -26,7 +26,7 @@ img{
 }
 
 main{
-  margin-top: 78px;
+  padding-top: 80px;
 }
 
 
@@ -53,11 +53,8 @@ header{
 span{
   color: #fff;
 }
-.contact-button:hover {
-  background-color: #333;
-  transition: 0.3s;
-}
-.contact-button span:hover{
+
+.contact-button:hover span{
   color: #333;
   transition: 0.3s;
 }
@@ -148,22 +145,18 @@ span{
   padding-bottom: 70px;
 }
 
-.skills h3{
+.skills h2{
   padding: 50px 0px;
   font-size: 40px;
   letter-spacing: 10px;
   text-align: center;
 }
 
-.skills-img{
-  flex-wrap: wrap;
-  display: flex;
-  justify-content: center;
-}
 
 .skills-img a{
   margin-left: 100px;
   margin-bottom: 100px;
+  float: left;
 }
 
 .skills-img a:nth-child(3n+1){
@@ -191,7 +184,7 @@ span{
   background-color: #d0dfea;
 }
 
-.select-plan h3{
+.select-plan h2{
   padding: 50px 0px;
   font-size: 40px;
   text-align: center;
@@ -262,8 +255,9 @@ justify-content: center;
   text-align: center;
 }
 
-.sns-icon-size a:hover{
-  color: #fff;
+.sns-icon-size:hover{
+  background-color: #fff;
+  transition: 0.5s;
 }
 /*-----------SNSアイコン　ここまで-----------*/
 
@@ -296,29 +290,17 @@ justify-content: center;
     width: 100%;
     padding-bottom: 50px;
   }
-  .work{
-    display: block;
-  }
+
   .center{
     display: block;
     text-align: center;
-  }
-  .work{
-    width: 100%;
-    padding-bottom: 50px;
-  }
-  .center{
-    display: block;
-    text-align: center;
-  }
-  .skills-img{
-    display: block;
   }
 
   .skills-img a{
     margin-left: 0px;
     margin-bottom: 0px;
     text-align: center;
+    float: none;
   }
   .skills-img a:nth-child(3n){
     margin-bottom: 80px;
@@ -383,13 +365,12 @@ justify-content: center;
     display: block;
     text-align: center;
   }
-  .skills-img{
-    display: block;
-  }
+
   .skills-img a{
     margin-left: 0px;
     margin-bottom: 0px;
     text-align: center;
+    float: none;
   }
   .skills-img a:nth-child(3n){
     margin-bottom: 80px;
