@@ -43,12 +43,13 @@ header{
   left: 0;
 }
 
+
 .contact-button {
   background-color: #6ba7ed;
   font-size: 12px;
   padding: 12px 14px;
   float: right;
-  margin: 15px;
+  margin: 15px 0px;
 }
 span{
   color: #fff;
@@ -62,7 +63,7 @@ span{
 
 
 .header-menu-icon{
-  padding: 15px;
+  padding: 15px 0px;
   color: #777;
   float: left;
 }
@@ -317,17 +318,18 @@ justify-content: center;
     width: 50px;
     height: 40px;
     cursor: pointer;
-    background-color: #6ba7ed;
+    background-color: #fff;
     float: right;
     margin: 15px;
     display: block;
+    border: 2px solid #D6D6D6;
   }
   .hamburger-line {
     position: absolute;
     left: 10px;
     width: 30px;
     height: 1px;
-    background-color: #333333;
+    background-color: #D6D6D6;
   }
   .hamburger-line1 {
   top: 10px;
