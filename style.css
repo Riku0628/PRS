@@ -254,10 +254,6 @@ display: flex;
 justify-content: center;
 }
 
-.sns-icon-size{
-
-}
-
 .sns-icon-size:hover{
   background-color: #fff;
 }
