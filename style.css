@@ -238,6 +238,9 @@ tbody tr:nth-of-type(2n){
   font-size: 40px;
   padding-top: 25px;
   padding-bottom: 25px;
+  width: 185px;
+  text-align: center;
+  transition: 0.5s;
 }
 
 .sns{
@@ -252,9 +255,7 @@ justify-content: center;
 }
 
 .sns-icon-size{
-  width: 185px;
-  text-align: center;
-  transition: 0.5s;
+
 }
 
 .sns-icon-size:hover{
@@ -394,15 +395,12 @@ justify-content: center;
   .sns-icon-size{
     margin: 0 auto;
     width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
   .sns{
     padding: 50px 15px;
     display: block;
-  }
-
-  .sns-icon-size {
-    padding-top: 50px;
-    padding-bottom: 50px;
   }
   .flex-center{
     display: block;
