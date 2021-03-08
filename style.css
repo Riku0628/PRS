@@ -144,29 +144,32 @@ span{
 .skills{
   background-color: #fff;
   padding-bottom: 70px;
+  padding-top: 50px;
 }
 
 .skills h2{
-  padding: 50px 0px;
+  padding-bottom: 50px;
   font-size: 40px;
   letter-spacing: 10px;
   text-align: center;
 }
 
 
-.skills-img a{
+.skills-img li{
   margin-left: 100px;
-  margin-bottom: 100px;
+  margin-top: 100px;
   float: left;
 }
 
-.skills-img a:nth-child(3n+1){
+.skills-img li:nth-child(3n+1){
   margin-left: 0px;
 }
 
-.skills-img a:nth-last-child(-n+3){
-  margin-bottom: 0px;
+.skills-img li:nth-child(-n+3){
+  margin-top: 0px;
 }
+
+
 
 .skill-img{
   opacity: 0.7;
@@ -183,10 +186,11 @@ span{
 /*-----------プラン　ここから-----------*/
 .plan{
   background-color: #d0dfea;
+  padding: 50px 0px;
 }
 
 .select-plan h2{
-  padding: 50px 0px;
+  margin-bottom: 50px;
   font-size: 40px;
   text-align: center;
 }
@@ -194,10 +198,6 @@ span{
 .select-table{
   table-layout: fixed;
   width: 100%;
-}
-
-.table-area{
-  padding-bottom: 50px;
 }
 
 thead tr th{
@@ -240,7 +240,7 @@ tbody tr:nth-of-type(2n){
   padding-bottom: 25px;
 }
 
-.sns-icon{
+.sns{
   padding-top: 200px;
   padding-bottom: 200px;
   background-color: #e3f2fd;
@@ -297,18 +297,20 @@ justify-content: center;
     text-align: center;
   }
 
-  .skills-img a{
+  .skills-img li{
     margin-left: 0px;
-    margin-bottom: 0px;
+    margin-top: 0px;
     text-align: center;
     float: none;
   }
-  .skills-img a:nth-child(3n){
+  .skills-img li:nth-child(3n){
     margin-bottom: 80px;
   }
-  .skills-img a:nth-last-child(1){
-  margin-bottom: 0px;
+  .skills-img li:last-child{
+    margin-bottom: 0px;
   }
+
+
 }
 
 @media screen and (max-width: 767px) {
@@ -368,18 +370,20 @@ justify-content: center;
     text-align: center;
   }
 
-  .skills-img a{
+  .skills-img li{
     margin-left: 0px;
-    margin-bottom: 0px;
+    margin-top: 0px;
     text-align: center;
     float: none;
   }
-  .skills-img a:nth-child(3n){
+
+  .skills-img li:nth-child(3n){
     margin-bottom: 80px;
   }
-  .skills-img a:nth-last-child(1){
+  .skills-img li:last-child{
     margin-bottom: 0px;
   }
+
   thead tr th,tbody tr th{
     font-size: 14px;
     line-height: 22px;
@@ -391,7 +395,7 @@ justify-content: center;
     margin: 0 auto;
     width: 100%;
   }
-  .sns-icon{
+  .sns{
     padding: 50px 15px;
     display: block;
   }
