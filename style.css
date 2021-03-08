@@ -53,11 +53,11 @@ header{
 }
 span{
   color: #fff;
+  transition: 0.3s;
 }
 
 .contact-button:hover span{
   color: #333;
-  transition: 0.3s;
 }
 
 
@@ -175,11 +175,11 @@ span{
   opacity: 0.7;
   width: 300px;
   height: 300px;
+  transition: 0.7s;
 }
 
 .skill-img:hover{
   opacity: 1;
-  transition: 0.7s;
 }
 /*-----------スキル　ここまで-----------*/
 
@@ -232,7 +232,7 @@ tbody tr:nth-of-type(2n){
 /*-----------プラン　ここまで-----------*/
 
 /*-----------SNSアイコン　ここから-----------*/
-.sns-icon-size a{
+.sns-icon-size{
   color: #8c8c8c;
   overflow: hidden;
   font-size: 40px;
@@ -254,11 +254,11 @@ justify-content: center;
 .sns-icon-size{
   width: 185px;
   text-align: center;
+  transition: 0.5s;
 }
 
 .sns-icon-size:hover{
   background-color: #fff;
-  transition: 0.5s;
 }
 /*-----------SNSアイコン　ここまで-----------*/
 
@@ -400,7 +400,7 @@ justify-content: center;
     display: block;
   }
 
-  .sns-icon-size a {
+  .sns-icon-size {
     padding-top: 50px;
     padding-bottom: 50px;
   }
